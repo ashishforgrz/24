@@ -31,8 +31,7 @@ Inheritance enables you to define a class that takes all the functionality from 
 Syntax - class newClass extends oldClass
 
 Getter and Setter -
-
-1. Getter -
+Getter -
 This example uses a 'lang' property to get the value of the 'language' property
 const person = {
   firstName: "Ashish",
@@ -44,7 +43,7 @@ const person = {
 };
 document.getElementById("demo").innerHTML = person.lang;
 
-2. Setter -
+Setter -
 This example uses a 'lang' property to set the value of the 'language' property.
  const person = {
   firstName: "Ashish",
