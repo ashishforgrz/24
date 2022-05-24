@@ -55,4 +55,22 @@ This example uses a 'lang' property to set the value of the 'language' property.
 };
 person.lang = "Hindi";
 document.getElementById("demo").innerHTML = person.language;
+
+
+Set -
+Collection of values that are unique
+1. new Set() - Creates a new set
+   eg: const newSet = new Set([21, 34, 35, 56, 23]);
+                      
+2. .add()  - Add new element at the end
+   eg: cont newSet();
+       newSet.add("Hello")
+       newSet.add("World")
+       
+3. .clear() -Removes all elements and returns undefined
+    
+4. .delete() - deletes particular
+5. .has() - check if the element exists
+6. 
+                      
  
