@@ -98,8 +98,7 @@ Map Methods -
   Syntax - map1.clear();
 5. Map.prototype.forEach() – executes the callback function once for each key/value pair in the Map
   Syntax - map1.forEach(callback[, thisArgument]);
-6. Map.prototype.values() – returns an iterator object which contains all the values present in the Map Object
-  Syntax - map1.values()
+
 
 Error Handling -
 --try and catch statement -
@@ -118,7 +117,7 @@ throw statement allows you to create a custom error.
 
 Error Name Values - 
 
-RangeError   - out of range number has occurred
-ReferenceError  - if we use	a variable that has not been declared
+RangeError   -   out of range number has occurred
+ReferenceError  -   if we use a variable that has not been declared
 SyntaxError    -	A syntax error has occurred
-TypeError	 -  thrown if you use a value that is outside the range of expected types
+TypeError	 -   thrown if you use a value that is outside the range of expected types
