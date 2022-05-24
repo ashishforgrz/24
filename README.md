@@ -2,8 +2,11 @@
 Class - 
 
 Class is a blueprint that defines a nature of a future object
+
 We can add methods inside class 
+
 eg:
+
 class ashish{
     constructor(name,age,town,company){
         this.name=name;
