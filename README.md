@@ -82,6 +82,22 @@ Collection of values that are unique
        text += value;
        })  
 
-=> Map -
-                      
+=> Map -  creates a new array from calling a function for every array element
+
+Map Property -
+Map.prototype.size – It returns the number of elements or the key-value pairs in the map
+
+Map Methods -
+1. Map.prototype.set() –  adds the key and value to the Map Object
+  Syntax - map1.set(k, v);
+2. Map.prototype.has() –  return a boolean value depending on whether the specified key is present or not
+  Syntax - map1.has(k);
+3. Map.prototype.get() – returns the value of the corresponding key 
+  Syntax - map1.get(k); 
+4. Map.prototype.clear() – Removes all the elements from the Map object
+  Syntax - map1.clear();
+5. Map.prototype.forEach() – executes the callback function once for each key/value pair in the Map
+  Syntax - map1.forEach(callback[, thisArgument]);
+6. Map.prototype.values() – returns an iterator object which contains all the values present in the Map Object
+  Syntax - map1.values()
  
