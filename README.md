@@ -1,5 +1,5 @@
 # 24/05/2022
-Class - 
+=> Class - 
 
 Class is a blueprint that defines a nature of a future object
 
@@ -23,18 +23,18 @@ console.log(person.afterFive())
 
 
 
-Prototype -
+=> Prototype -
 Add properties to the object
 eg:
 Person.prototype.gender = 'male';
 Person.prototype.age=22;
 
 
-Inheritance - 
+=> Inheritance - 
 Inheritance enables you to define a class that takes all the functionality from a parent class and allows you to add more.
 Syntax - class newClass extends oldClass
 
-Getter and Setter -
+=> Getter and Setter -
 Getter -
 This example uses a 'lang' property to get the value of the 'language' property
 const person = {
@@ -61,7 +61,7 @@ person.lang = "Hindi";
 document.getElementById("demo").innerHTML = person.language;
 
 
-Set -
+=> Set -
 Collection of values that are unique
 1. new Set() - Creates a new set
    eg: const newSet = new Set([21, 34, 35, 56, 23]);
@@ -75,6 +75,13 @@ Collection of values that are unique
     
 4. .delete() - deletes particular
 5. .has() - check if the element exists
-6. 
+6. .forEach() - method invokes a function for each Set element
+   eg: const letters = new Set(["a","b","c"]);
+       let text = "";
+       letters.forEach (function(value) {
+       text += value;
+       })  
+
+=> Map -
                       
  
