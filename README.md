@@ -1,5 +1,6 @@
 # 24/05/2022
 Class - 
+
 Class is a blueprint that defines a nature of a future object
 We can add methods inside class 
 eg:
