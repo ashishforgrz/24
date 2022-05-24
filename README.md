@@ -100,4 +100,25 @@ Map Methods -
   Syntax - map1.forEach(callback[, thisArgument]);
 6. Map.prototype.values() – returns an iterator object which contains all the values present in the Map Object
   Syntax - map1.values()
- 
+
+Error Handling -
+--try and catch statement -
+try statement allows you to define a block of code to be tested for errors while it is being executed
+catch statement allows you to define a block of code to be executed, if an error occurs in the try block
+Syntax - 
+try {
+  Block of code to try
+}
+catch(err) {
+  Block of code to handle errors
+}
+
+--throw statement -
+throw statement allows you to create a custom error.
+
+Error Name Values - 
+
+RangeError   - out of range number has occurred
+ReferenceError  - if we use	a variable that has not been declared
+SyntaxError    -	A syntax error has occurred
+TypeError	 -  thrown if you use a value that is outside the range of expected types
